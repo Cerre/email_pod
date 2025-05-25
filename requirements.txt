@@ -1,0 +1,26 @@
+# Core dependencies
+podcastfy>=0.4.1
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+python-dotenv>=1.0.0
+
+# Email handling
+imapclient>=3.0.1
+secure-smtplib>=0.1.1
+
+# Text processing
+lxml>=4.9.0
+html2text>=2020.1.16
+
+# Logging and utilities
+python-dateutil>=2.8.2
+pytz>=2023.3
+
+# Development and testing (optional)
+pytest>=7.4.0
+pytest-mock>=3.11.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Audio processing (backup - ffmpeg should be installed system-wide)
+pydub>=0.25.1

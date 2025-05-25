@@ -1,0 +1,93 @@
+# Environment and credentials
+.env
+*.env
+.env.local
+.env.*.local
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.aac
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+daily-podcast-env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Temporary files
+output/
+temp/
+tmp/
+.tmp/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Configuration that might contain secrets
+config/*.json
+!config/*.example.json
+
+# Downloaded content cache
+cache/
+.cache/
